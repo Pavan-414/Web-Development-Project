@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITY WEBSITE DESIGN</title>
+    <link rel="stylesheet" href="university.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+        <a href="university.html"><img src="logo2.jpg"></a>
+        <div class="nav-links" id="navLinks">
+            <i onclick="hideMenu()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-square" viewBox="0 0 16 16">
+                <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+              <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+            </svg> </i>
+            
+           <!-- <i class="bi bi-x-square" onclick="hideMenu()"></i> -->
+            <ul> 
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i onclick="showMenu()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+        </i>
+        </nav>
+        <h1>CONTACT US</h1>
+    </section>
+
+    <!------contact us-->
+<!--------------About Us Content--------->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7766.427825729269!2d79.119909!3d13.2745687!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad58d057c86bd7%3A0xb1b02dfac89b5d42!2sSri%20Venkateswara%20College%20Of%20Engineering%20%26%20Technology(Autonomous)!5e0!3m2!1sen!2sin!4v1703693215294!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-facebook"></i>
+                <span>
+                    <h5>SVCET COLLEGE,RVS NAGAR,MUTHIREVULA,PUTHALAPATTU(M)</h5>
+                    <p>CHITTOOR,ANDHRA PRADESH(S),INDIA</p>
+                </span>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>07729999158</h5>
+                    <p> Monday to Saturday, 10AM to 6PM</p>
+                </span>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>info@svcetedu.org</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter your email address" required>
+                <input type="text" placeholder="Enter your subject" required>
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+                
+            </form>
+        </div>
+    </div>
+
+</section>
+         
+
+<!--------------------Footer-------------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>“Sri Venkateswara College of Engineering and Technology (Autonomous) (SVCET), Chittoor.<br> Ranked with 198 Among Top Engineering Colleges by NIRF 2022, MHRD, Govt. of India.<br> SVCET is also NBA Accredited under Tier-I for three years upto 30.06.2025 and Accredited by NAAC with A Grade Accredited Institution.</p>
+    
+    <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-telegram"></i>
+    </div>
+</section>
+
+
+
+    <!----------JavaScript for Toggle Menu------->
+    <script>
+
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    </script>
+</body>
+</html>
